@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+$bg-color: #faf9fa;
+
+html,
+body {
+    background-color: $bg-color !important;
+    margin: 0px;
+    padding: 0px;
+    font-family: "Roboto", sans-serif;
+}
+
+#App {
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+}
+
+
+input[type="file"] {
+    display: none;
+}
+
+label.fileUpload {
+    border: 1px solid #ccc;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.card {
+    box-shadow: 0px 15px 33px 0px rgb(0 0 0 / 15%);
+    padding: 70px;
+}
+
+form {
+    padding: 20px;
+}
+
+.card-header {
+    background: white;
+}
+
+.wrapper {
+    min-height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button.deleteButton {
+    border-radius: 50px;
+    padding: 10px;
+    background: transparent;
+    border: 1px solid black;
+    max-height: 10px;
+    margin: 10px;
+}
+
+.list-item {
+    display: flex;
+    align-items: flex-end;
+}
+
+.item {
+    width: 90%;
+    text-align: left;
+    padding: 10px;
+}
+
+.form-control {
+    display: initial;
+    width: inherit;
+}
